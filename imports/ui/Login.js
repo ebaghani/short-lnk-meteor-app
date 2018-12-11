@@ -31,7 +31,7 @@ export default class Login extends React.Component {
     render() {
       return (<div className="boxed-view">
         <div className="boxed-view__box">
-          <h1>Short Link</h1>
+          <h1>Short Link Login</h1>
           {/* <p>{this.state.count}</p> */}
           {this.state.error ? <p>{this.state.error}</p> : undefined}
           <form onSubmit={this.onSubmit.bind(this)} noValidate className="boxed-view__form">
