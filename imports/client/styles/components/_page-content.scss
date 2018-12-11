@@ -1,0 +1,8 @@
+.page-content {
+    padding: $space;
+    display: flex;
+    flex-direction: column;
+   // justify-content: space-between;
+    max-width: $site-max-width;
+    margin: 0 auto;
+}

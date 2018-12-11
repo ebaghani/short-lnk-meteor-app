@@ -1,0 +1,48 @@
+.button {
+    background-color: $button-bg;
+    border: none;
+    color: $button-color;
+    font-size: $base-font-size;
+    cursor: pointer;
+    line-height: 1.2;
+    padding: $input-spacing;
+    text-transform: uppercase;
+    margin-bottom: $space;
+}
+
+.button--link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button--pill {
+    background-color: transparent;
+    border: 1px solid $button-pill-color;
+    color: $button-pill-color;
+    padding: .3rem .8rem;
+    margin: 0 ($space/2) 0 0;
+}
+
+.boxed-view--modal {
+    background: fade-out($color: $boxed-view-overlay-bg, $amount: 0.3);
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right:0;
+}
+
+.button--secondary {
+    background-color: $button-secondary-bg;
+    color: $button-secondary-color;
+    border: 1px solid $button-secondary-border-color;
+}
+
+.button--link-text {
+    text-decoration: underline;
+    background: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+    border: none;
+}

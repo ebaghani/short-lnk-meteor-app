@@ -1,0 +1,13 @@
+.title-bar {
+    background: $header-bg;
+    color: $header-color;
+}
+
+.title-bar__content {
+    padding-top: $space;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: $site-max-width;
+    margin: 0 auto;
+}
